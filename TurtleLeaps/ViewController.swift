@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+          self.navigationController!.pushViewController(self.storyboard!.instantiateViewController(withIdentifier: "SignInViewController"), animated: true)
+    }
 
 
 }

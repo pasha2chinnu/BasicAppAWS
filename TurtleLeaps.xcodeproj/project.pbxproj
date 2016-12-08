@@ -19,6 +19,8 @@
 		9BF6AC4D1DF930A600088C5A /* TurtleLeapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF6AC4C1DF930A600088C5A /* TurtleLeapsUITests.swift */; };
 		9BF6AC5B1DF932EE00088C5A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9BF6AC5A1DF932EE00088C5A /* .gitignore */; };
 		9BF6AC5E1DF9447800088C5A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF6AC5D1DF9447800088C5A /* SignUpViewController.swift */; };
+		9BF6AC601DF9505700088C5A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF6AC5F1DF9505700088C5A /* SignInViewController.swift */; };
+		9BF6AC641DF956C500088C5A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF6AC631DF956C500088C5A /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		9BF6AC4E1DF930A700088C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BF6AC5A1DF932EE00088C5A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		9BF6AC5D1DF9447800088C5A /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9BF6AC5F1DF9505700088C5A /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		9BF6AC631DF956C500088C5A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BD9F5FB4F98BDA87C7BAD3E7 /* Pods_TurtleLeapsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurtleLeapsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE20E33528A8F991DA81C955 /* Pods-TurtleLeapsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurtleLeapsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TurtleLeapsTests/Pods-TurtleLeapsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E165226B0DB9ECBB509CB00E /* Pods-TurtleLeapsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurtleLeapsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TurtleLeapsUITests/Pods-TurtleLeapsUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +146,7 @@
 		9BF6AC2B1DF930A300088C5A /* TurtleLeaps */ = {
 			isa = PBXGroup;
 			children = (
+				9BF6AC611DF956A000088C5A /* Models */,
 				9BF6AC5C1DF943F500088C5A /* Controllers */,
 				9BF6AC2C1DF930A300088C5A /* AppDelegate.swift */,
 				9BF6AC2E1DF930A400088C5A /* ViewController.swift */,
@@ -175,8 +180,33 @@
 			isa = PBXGroup;
 			children = (
 				9BF6AC5D1DF9447800088C5A /* SignUpViewController.swift */,
+				9BF6AC5F1DF9505700088C5A /* SignInViewController.swift */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9BF6AC611DF956A000088C5A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9BF6AC651DF95D0900088C5A /* TurtleLeapsProgressHUD */,
+				9BF6AC621DF956AE00088C5A /* Constants */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9BF6AC621DF956AE00088C5A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9BF6AC631DF956C500088C5A /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		9BF6AC651DF95D0900088C5A /* TurtleLeapsProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TurtleLeapsProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -461,6 +491,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF6AC641DF956C500088C5A /* Constants.swift in Sources */,
+				9BF6AC601DF9505700088C5A /* SignInViewController.swift in Sources */,
 				9BF6AC5E1DF9447800088C5A /* SignUpViewController.swift in Sources */,
 				9BF6AC2F1DF930A400088C5A /* ViewController.swift in Sources */,
 				9BF6AC2D1DF930A300088C5A /* AppDelegate.swift in Sources */,
