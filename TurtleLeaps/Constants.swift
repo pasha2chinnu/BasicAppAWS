@@ -24,8 +24,8 @@ extension UIColor {
 }
 */
 
-let kOpi9IdentityPoolId = ""
-let kS3BucketName = ""
+let kOpi9IdentityPoolId = "us-west-2:27d899c6-8558-4252-8128-3d911e6d199c"
+let kS3BucketName = "turtleleap"
 
 
 
