@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0379E7426704610EE8E66E5A /* Pods_TurtleLeapsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9F5FB4F98BDA87C7BAD3E7 /* Pods_TurtleLeapsUITests.framework */; };
+		3BCD925A5D062E7FBF4D4B2B /* Pods_TurtleLeapsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78486C5CD460F90A92189332 /* Pods_TurtleLeapsTests.framework */; };
+		51EF0E411412686386A18C79 /* Pods_TurtleLeaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE413F525C2D960C6D261D9 /* Pods_TurtleLeaps.framework */; };
 		9BF6AC2D1DF930A300088C5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF6AC2C1DF930A300088C5A /* AppDelegate.swift */; };
 		9BF6AC2F1DF930A400088C5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF6AC2E1DF930A400088C5A /* ViewController.swift */; };
 		9BF6AC321DF930A400088C5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF6AC301DF930A400088C5A /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		9BF6AC371DF930A500088C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF6AC351DF930A500088C5A /* LaunchScreen.storyboard */; };
 		9BF6AC421DF930A600088C5A /* TurtleLeapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF6AC411DF930A600088C5A /* TurtleLeapsTests.swift */; };
 		9BF6AC4D1DF930A600088C5A /* TurtleLeapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF6AC4C1DF930A600088C5A /* TurtleLeapsUITests.swift */; };
+		9BF6AC5B1DF932EE00088C5A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9BF6AC5A1DF932EE00088C5A /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D78BBDA54207C1D193F1677 /* Pods-TurtleLeaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurtleLeaps.release.xcconfig"; path = "Pods/Target Support Files/Pods-TurtleLeaps/Pods-TurtleLeaps.release.xcconfig"; sourceTree = "<group>"; };
+		286CC86D745B7FC3E7372522 /* Pods-TurtleLeapsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurtleLeapsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TurtleLeapsUITests/Pods-TurtleLeapsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		49BEA20FA73D7B6B2E3A51C3 /* Pods-TurtleLeapsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurtleLeapsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TurtleLeapsTests/Pods-TurtleLeapsTests.release.xcconfig"; sourceTree = "<group>"; };
+		78486C5CD460F90A92189332 /* Pods_TurtleLeapsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurtleLeapsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE413F525C2D960C6D261D9 /* Pods_TurtleLeaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurtleLeaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF6AC291DF930A200088C5A /* TurtleLeaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurtleLeaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF6AC2C1DF930A300088C5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BF6AC2E1DF930A400088C5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,11 @@
 		9BF6AC481DF930A600088C5A /* TurtleLeapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurtleLeapsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF6AC4C1DF930A600088C5A /* TurtleLeapsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleLeapsUITests.swift; sourceTree = "<group>"; };
 		9BF6AC4E1DF930A700088C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF6AC5A1DF932EE00088C5A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		BD9F5FB4F98BDA87C7BAD3E7 /* Pods_TurtleLeapsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurtleLeapsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE20E33528A8F991DA81C955 /* Pods-TurtleLeapsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurtleLeapsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TurtleLeapsTests/Pods-TurtleLeapsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E165226B0DB9ECBB509CB00E /* Pods-TurtleLeapsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurtleLeapsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TurtleLeapsUITests/Pods-TurtleLeapsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F96BA6B123D1D1AD61F233C2 /* Pods-TurtleLeaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurtleLeaps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TurtleLeaps/Pods-TurtleLeaps.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51EF0E411412686386A18C79 /* Pods_TurtleLeaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BCD925A5D062E7FBF4D4B2B /* Pods_TurtleLeapsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +84,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0379E7426704610EE8E66E5A /* Pods_TurtleLeapsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D34BB02CB9BB49CA898F1B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BE413F525C2D960C6D261D9 /* Pods_TurtleLeaps.framework */,
+				78486C5CD460F90A92189332 /* Pods_TurtleLeapsTests.framework */,
+				BD9F5FB4F98BDA87C7BAD3E7 /* Pods_TurtleLeapsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59A94DF7BD6C1E5B230AE014 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F96BA6B123D1D1AD61F233C2 /* Pods-TurtleLeaps.debug.xcconfig */,
+				0D78BBDA54207C1D193F1677 /* Pods-TurtleLeaps.release.xcconfig */,
+				DE20E33528A8F991DA81C955 /* Pods-TurtleLeapsTests.debug.xcconfig */,
+				49BEA20FA73D7B6B2E3A51C3 /* Pods-TurtleLeapsTests.release.xcconfig */,
+				E165226B0DB9ECBB509CB00E /* Pods-TurtleLeapsUITests.debug.xcconfig */,
+				286CC86D745B7FC3E7372522 /* Pods-TurtleLeapsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9BF6AC201DF930A200088C5A = {
 			isa = PBXGroup;
 			children = (
+				9BF6AC5A1DF932EE00088C5A /* .gitignore */,
 				9BF6AC2B1DF930A300088C5A /* TurtleLeaps */,
 				9BF6AC401DF930A600088C5A /* TurtleLeapsTests */,
 				9BF6AC4B1DF930A600088C5A /* TurtleLeapsUITests */,
 				9BF6AC2A1DF930A200088C5A /* Products */,
+				59A94DF7BD6C1E5B230AE014 /* Pods */,
+				2D34BB02CB9BB49CA898F1B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BF6AC511DF930A700088C5A /* Build configuration list for PBXNativeTarget "TurtleLeaps" */;
 			buildPhases = (
+				8B4510FAB27B4C4EE2AE0765 /* [CP] Check Pods Manifest.lock */,
 				9BF6AC251DF930A200088C5A /* Sources */,
 				9BF6AC261DF930A200088C5A /* Frameworks */,
 				9BF6AC271DF930A200088C5A /* Resources */,
+				C67A8636781565FCDC221552 /* [CP] Embed Pods Frameworks */,
+				6C8C28CDF87239F89A572881 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BF6AC541DF930A700088C5A /* Build configuration list for PBXNativeTarget "TurtleLeapsTests" */;
 			buildPhases = (
+				E5194679F00219E683F6B2AB /* [CP] Check Pods Manifest.lock */,
 				9BF6AC391DF930A600088C5A /* Sources */,
 				9BF6AC3A1DF930A600088C5A /* Frameworks */,
 				9BF6AC3B1DF930A600088C5A /* Resources */,
+				FF2C5F5B3068EA49B2E1593B /* [CP] Embed Pods Frameworks */,
+				D814B43A4C802A317EACE7A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BF6AC571DF930A700088C5A /* Build configuration list for PBXNativeTarget "TurtleLeapsUITests" */;
 			buildPhases = (
+				9C8DB6C2E43A80A66868E57B /* [CP] Check Pods Manifest.lock */,
 				9BF6AC441DF930A600088C5A /* Sources */,
 				9BF6AC451DF930A600088C5A /* Frameworks */,
 				9BF6AC461DF930A600088C5A /* Resources */,
+				46F51CAE67DA19D9222ACE5D /* [CP] Embed Pods Frameworks */,
+				27AA740CC05F29B4F5411E77 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF6AC5B1DF932EE00088C5A /* .gitignore in Resources */,
 				9BF6AC371DF930A500088C5A /* LaunchScreen.storyboard in Resources */,
 				9BF6AC341DF930A400088C5A /* Assets.xcassets in Resources */,
 				9BF6AC321DF930A400088C5A /* Main.storyboard in Resources */,
@@ -253,6 +306,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27AA740CC05F29B4F5411E77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TurtleLeapsUITests/Pods-TurtleLeapsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46F51CAE67DA19D9222ACE5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TurtleLeapsUITests/Pods-TurtleLeapsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C8C28CDF87239F89A572881 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TurtleLeaps/Pods-TurtleLeaps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B4510FAB27B4C4EE2AE0765 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C8DB6C2E43A80A66868E57B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C67A8636781565FCDC221552 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TurtleLeaps/Pods-TurtleLeaps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D814B43A4C802A317EACE7A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TurtleLeapsTests/Pods-TurtleLeapsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5194679F00219E683F6B2AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF2C5F5B3068EA49B2E1593B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TurtleLeapsTests/Pods-TurtleLeapsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9BF6AC251DF930A200088C5A /* Sources */ = {
@@ -410,6 +601,7 @@
 		};
 		9BF6AC521DF930A700088C5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96BA6B123D1D1AD61F233C2 /* Pods-TurtleLeaps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TurtleLeaps/Info.plist;
@@ -422,6 +614,7 @@
 		};
 		9BF6AC531DF930A700088C5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D78BBDA54207C1D193F1677 /* Pods-TurtleLeaps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TurtleLeaps/Info.plist;
@@ -434,6 +627,7 @@
 		};
 		9BF6AC551DF930A700088C5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE20E33528A8F991DA81C955 /* Pods-TurtleLeapsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +642,7 @@
 		};
 		9BF6AC561DF930A700088C5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49BEA20FA73D7B6B2E3A51C3 /* Pods-TurtleLeapsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +657,7 @@
 		};
 		9BF6AC581DF930A700088C5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E165226B0DB9ECBB509CB00E /* Pods-TurtleLeapsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TurtleLeapsUITests/Info.plist;
@@ -475,6 +671,7 @@
 		};
 		9BF6AC591DF930A700088C5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286CC86D745B7FC3E7372522 /* Pods-TurtleLeapsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TurtleLeapsUITests/Info.plist;
@@ -505,6 +702,7 @@
 				9BF6AC531DF930A700088C5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BF6AC541DF930A700088C5A /* Build configuration list for PBXNativeTarget "TurtleLeapsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +711,7 @@
 				9BF6AC561DF930A700088C5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BF6AC571DF930A700088C5A /* Build configuration list for PBXNativeTarget "TurtleLeapsUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +720,7 @@
 				9BF6AC591DF930A700088C5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
