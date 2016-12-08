@@ -8,7 +8,8 @@
 
 import UIKit
 
-class SignUpViewController: UIViewController,UIImagePickerControllerDelegate {
+
+class SignUpViewController: UIViewController,UINavigationControllerDelegate,UIImagePickerControllerDelegate {
 
     @IBOutlet var profileImage: UIImageView!
     @IBOutlet var firstnameTextfield: UITextField!
@@ -89,12 +90,12 @@ class SignUpViewController: UIViewController,UIImagePickerControllerDelegate {
         }
         
         let fileurl : NSURL = info[UIImagePickerControllerReferenceURL] as! NSURL
-        selectedImageUrl = info[UIImagePickerControllerReferenceURL] as! NSURL
-        Opi9ProgressHud.show(self.view)
-        profileImage.image=selectedImage
-        pickImage = true
-        self.dismiss(animated: true, completion: nil)
-        uploadProfileImageToAWS()
+//        selectedImageUrl = info[UIImagePickerControllerReferenceURL] as! NSURL
+//        TurtleLeapsProgressHud.show(self.view)
+//        profileImage.image=selectedImage
+//        pickImage = true
+//        self.dismiss(animated: true, completion: nil)
+//        uploadProfileImageToAWS()
     }
     
     @IBAction func signUpClicked(_ sender: Any) {

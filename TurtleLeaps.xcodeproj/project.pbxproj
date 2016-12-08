@@ -21,6 +21,9 @@
 		9BF6AC5E1DF9447800088C5A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF6AC5D1DF9447800088C5A /* SignUpViewController.swift */; };
 		9BF6AC601DF9505700088C5A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF6AC5F1DF9505700088C5A /* SignInViewController.swift */; };
 		9BF6AC641DF956C500088C5A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF6AC631DF956C500088C5A /* Constants.swift */; };
+		9BF6AC6A1DF95EEC00088C5A /* loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9BF6AC671DF95EEC00088C5A /* loader.gif */; };
+		9BF6AC6B1DF95EEC00088C5A /* TurtleLeapsProgressHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF6AC691DF95EEC00088C5A /* TurtleLeapsProgressHud.m */; };
+		9BF6AC6F1DF95F9700088C5A /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF6AC6E1DF95F9700088C5A /* UIImage+animatedGIF.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,12 @@
 		9BF6AC5D1DF9447800088C5A /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		9BF6AC5F1DF9505700088C5A /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		9BF6AC631DF956C500088C5A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9BF6AC661DF95E4800088C5A /* TurtleLeaps-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TurtleLeaps-Bridging-Header.h"; sourceTree = "<group>"; };
+		9BF6AC671DF95EEC00088C5A /* loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loader.gif; sourceTree = "<group>"; };
+		9BF6AC681DF95EEC00088C5A /* TurtleLeapsProgressHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurtleLeapsProgressHud.h; sourceTree = "<group>"; };
+		9BF6AC691DF95EEC00088C5A /* TurtleLeapsProgressHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurtleLeapsProgressHud.m; sourceTree = "<group>"; };
+		9BF6AC6D1DF95F9700088C5A /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		9BF6AC6E1DF95F9700088C5A /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 		BD9F5FB4F98BDA87C7BAD3E7 /* Pods_TurtleLeapsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurtleLeapsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE20E33528A8F991DA81C955 /* Pods-TurtleLeapsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurtleLeapsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TurtleLeapsTests/Pods-TurtleLeapsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E165226B0DB9ECBB509CB00E /* Pods-TurtleLeapsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurtleLeapsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TurtleLeapsUITests/Pods-TurtleLeapsUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -154,6 +163,7 @@
 				9BF6AC331DF930A400088C5A /* Assets.xcassets */,
 				9BF6AC351DF930A500088C5A /* LaunchScreen.storyboard */,
 				9BF6AC381DF930A500088C5A /* Info.plist */,
+				9BF6AC661DF95E4800088C5A /* TurtleLeaps-Bridging-Header.h */,
 			);
 			path = TurtleLeaps;
 			sourceTree = "<group>";
@@ -188,6 +198,7 @@
 		9BF6AC611DF956A000088C5A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9BF6AC6C1DF95F6D00088C5A /* ImageGif */,
 				9BF6AC651DF95D0900088C5A /* TurtleLeapsProgressHUD */,
 				9BF6AC621DF956AE00088C5A /* Constants */,
 			);
@@ -205,8 +216,20 @@
 		9BF6AC651DF95D0900088C5A /* TurtleLeapsProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
+				9BF6AC671DF95EEC00088C5A /* loader.gif */,
+				9BF6AC681DF95EEC00088C5A /* TurtleLeapsProgressHud.h */,
+				9BF6AC691DF95EEC00088C5A /* TurtleLeapsProgressHud.m */,
 			);
 			name = TurtleLeapsProgressHUD;
+			sourceTree = "<group>";
+		};
+		9BF6AC6C1DF95F6D00088C5A /* ImageGif */ = {
+			isa = PBXGroup;
+			children = (
+				9BF6AC6D1DF95F9700088C5A /* UIImage+animatedGIF.h */,
+				9BF6AC6E1DF95F9700088C5A /* UIImage+animatedGIF.m */,
+			);
+			name = ImageGif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,6 +351,7 @@
 				9BF6AC5B1DF932EE00088C5A /* .gitignore in Resources */,
 				9BF6AC371DF930A500088C5A /* LaunchScreen.storyboard in Resources */,
 				9BF6AC341DF930A400088C5A /* Assets.xcassets in Resources */,
+				9BF6AC6A1DF95EEC00088C5A /* loader.gif in Resources */,
 				9BF6AC321DF930A400088C5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,10 +516,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BF6AC641DF956C500088C5A /* Constants.swift in Sources */,
+				9BF6AC6B1DF95EEC00088C5A /* TurtleLeapsProgressHud.m in Sources */,
 				9BF6AC601DF9505700088C5A /* SignInViewController.swift in Sources */,
 				9BF6AC5E1DF9447800088C5A /* SignUpViewController.swift in Sources */,
 				9BF6AC2F1DF930A400088C5A /* ViewController.swift in Sources */,
 				9BF6AC2D1DF930A300088C5A /* AppDelegate.swift in Sources */,
+				9BF6AC6F1DF95F9700088C5A /* UIImage+animatedGIF.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,6 +679,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kvana.TurtleLeaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TurtleLeaps/TurtleLeaps-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -667,6 +694,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kvana.TurtleLeaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TurtleLeaps/TurtleLeaps-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
